@@ -1,0 +1,39 @@
+F:\Softwares\WindowsNoEditor
+-opengl -carla-server -windowed -benchmark -fps=10 -quality-level=Epic -carla-world-port=2000
+https://youtu.be/WZ7FCrA5U8Q
+CarlaUE4 -dx11
+/// to check what process at 
+tasklist | findstr 1768
+/// to check if a specific port is runing
+netstat -ano | findstr :2000
+Developing link
+https://medium.com/@parthanvelanjeri/a-dip-into-carla-ii-control-your-car-and-your-world-2ec5d6682e17
+Carla Smulation Git1
+https://github.com/idreesshaikh/Autonomous-Driving-in-Carla-using-Deep-Reinforcement-Learning?tab=readme-ov-file
+Carla Experts
+https://kin-zhang.github.io/projects/CARLA_expert/
+Carla 2
+https://github.com/carla-simulator/carla
+carla 0.0.9.9
+https://www.youtube.com/watch?v=m9tbh2VnnRs
+
+target Coordinates 
+Intersection:
+(-200.0, 50.0, 0.0)
+(50.0, -100.0, 0.0)
+(150.0, 60.0, 0.0)
+Straight Road Sections:
+
+(100.0, 200.0, 0.0)
+(200.0, 150.0, 0.0)
+(-150.0, -200.0, 0.0)
+Curves and Turns:
+
+(30.0, -150.0, 0.0)
+(-50.0, -50.0, 0.0)
+(-100.0, 100.0, 0.0)
+Near Buildings:
+
+(-80.0, -150.0, 0.0)
+(150.0, 100.0, 0.0)
+(0.0, 0.0, 0.0)
